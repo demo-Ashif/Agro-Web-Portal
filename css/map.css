@@ -1,0 +1,162 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#canvas{
+    width:950px;
+    height:900;
+    float:left;
+    background:white;	
+}
+   
+#papermap {
+        width: 700px;
+		height: 900px;
+        float:left;
+	}
+
+
+.district{
+	width:250px;
+	height:80px;
+	margin-left:10px;
+	margin-top:6px;
+	background: #faac18;
+    box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+	text-align:center;
+	overflow: auto;
+	
+	
+}
+
+.district2{
+	width:250px;
+	height:80px;
+	margin-left:10px;
+	margin-top:6px;
+	background: rgb(0, 159, 85);
+    box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+	text-align:center;
+	/*white-space: pre-wrap;       Webkit *    
+   white-space: -moz-pre-wrap;  Firefox *     
+   white-space: -pre-wrap;      Opera <7 *    
+   white-space: -o-pre-wrap;    Opera 7 *    
+   word-wrap: break-word;       IE */ 
+}
+
+.district3{
+	width:250px;
+	height:100px;
+	margin-left:10px;
+	margin-top:6px;
+	background: rgb(0, 159, 85);
+    box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+	text-align:center;
+	/*white-space: pre-wrap;       Webkit *    
+   white-space: -moz-pre-wrap;  Firefox *     
+   white-space: -pre-wrap;      Opera <7 *    
+   white-space: -o-pre-wrap;    Opera 7 *    
+   word-wrap: break-word;       IE */ 
+}
+
+
+
+.district-soil{
+	width:250px;
+	height:140px;
+	margin-left:10px;
+	margin-top:6px;
+	background: #86b340;
+    box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+	text-align:center;
+	
+	
+}
+
+.district-weather{
+	width:250px;
+	height:140px;
+	margin-left:10px;
+	margin-top:6px;
+	background: #86b340;
+    box-shadow: 0 0 7px rgba(0, 200, 204, 0.7);
+	text-align:center;
+	
+	
+}
+.district:hover,.district2:hover,.district3:hover,
+.district-soil:hover,
+.district-weather:hover{
+	
+    box-shadow: 0 0 7px rgba(5, 46, 123, 0.76);
+	
+}
+
+.title{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.only-content{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.content{
+	width: 100%;
+	float: left;
+	text-align: center;
+	
+}
+
+
+#Panchogar,#Thakurgaon, #Nilphamari ,#Dinajpur ,#Rangpur, #Rajbari ,#Kurigram ,#Lalmonirhat ,#Gaibandha ,#Joypurhat ,#Naogaon ,#Bogra ,#Jamalpur, #Sherpur ,#Nawabganj ,#Rajshahi ,#Natore ,#Sirajganj ,#Tangail ,#Mymensingh ,#Netrokona ,#Sunamganj ,#Sylhet ,#MBazar ,#Hobiganj ,#Kishoreganj, #Gazipur ,#Kushtia ,#Pabna ,#Manikganj ,#Dhaka ,#NGanj ,#Narsingdi ,#BBaria ,#Comilla ,#Chadpur ,#Shariatpur ,#Madaripur ,#Munshiganj ,#Faridpur, #Gopalganj ,#Magura ,#Jhenaidah ,#Chuadanga ,#Meherpur ,#Jessore ,#Narail ,#Satkhira ,#Khulna ,#Bagerhat ,#Pirojpur ,#Jhalokathi ,#Barguna, #Patuakhali, #Barisal ,#Vola ,#Laxmipur, #Noakhali,#Feni,#Feni,#Chittagong ,#Khagrachari ,#Rangamati ,#Bandorban ,#CoxBazar {
+		display: none;
+		width:250px;
+		height:710px;
+        float:left;
+        margin-top: 50px;
+        background-repeat: no-repeat;
+}
+
+.social-popout{
+	height: 50px;
+	width: 230px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.35s;
+	-moz-transition: all ease 0.35s;
+	-o-transition: all ease 0.35s;
+	-ms-transition: all ease 0.35s;
+	transition: all ease 0.35s;
+}
+.social-popout img {
+	border-radius: 10%;
+	margin-top: 8px;
+	margin-left: 4px;
+	width: 40px;
+	height: 40px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+	-webkit-transition: all ease 0.35s;
+	-moz-transition: all ease 0.35s;
+	-o-transition: all ease 0.35s;
+	-ms-transition: all ease 0.35s;
+	transition: all ease 0.35s;
+}
+
+#facebook{
+	margin-left: 45px;
+}
+.social-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+
+h1 {
+		text-align: center;
+}

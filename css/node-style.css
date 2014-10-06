@@ -1,0 +1,31 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#crop-header{
+  width: 100%;
+  height: 100px;
+  background: steelblue;
+  float: left;
+  position: fixed;
+}
+.node {
+      cursor: pointer;
+    }
+
+    .node circle {
+      fill: #fff;
+      stroke: steelblue;
+      stroke-width: 3px;
+    }
+
+    .node text { 
+      font: 12px sans-serif; 
+    }
+
+    .link {
+      fill: none;
+      stroke: #ccc;
+      stroke-width: 2px;
+    }

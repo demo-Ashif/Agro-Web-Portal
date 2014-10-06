@@ -1,0 +1,379 @@
+#wind-hum{
+	width: 24%;
+	height: 100%;
+	float: left;	
+}
+
+.hum{
+	width: 50%;
+	height: 50%;
+	float: left;
+	background: #fe583b;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;	
+}
+
+.hum:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+#mid-text{
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 30px;
+	
+}
+
+#mid-text2{
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 30px;
+	
+}
+
+#low-text{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	
+}
+
+.speed{
+	width: 49%;
+	height: 50%;
+	float: left;
+	margin-left: 1%;
+	background: rgb(0, 159, 85);
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+	
+}
+
+.speed:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+.direction{
+	width: 50%;
+	height: 49%;
+	float: left;
+	margin-top: 1%;
+	background: rgb(0, 159, 85);
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+	
+}
+
+.direction:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+.pressure{
+	width: 49%;
+	height: 49%;
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	background: #fe583b;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.pressure:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+/*-----------------------------------------------------*/
+
+#icon{
+	width: 20%;
+	height: 100%;
+	margin-left: 1%;
+	float: left;
+	
+}
+
+.icon-type{
+	width: 100%;
+	height: 80%;
+	float: left;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+	
+}
+
+.icon-type:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+#ic-image{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.sky{
+	width: 100%;
+	height: 19%;
+	float: left;
+	margin-top: 1%;
+	background: rgb(0, 159, 85);
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+/*--------------------------------------------------------*/
+
+#temp{
+	width: 20%;
+	height: 100%;
+	margin-left: 1%;
+	float: left;
+	
+}
+
+.temp-value{
+	width: 100%;
+	height: 80%;
+	float: left;
+	background: rgb(0, 159, 85);
+	text-align: center;
+	color: white;
+	font-size: 38px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 160px;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.temp-value:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+.temp-title{
+	width: 100%;
+	height: 19%;
+	float: left;
+	margin-top: 1%;
+	background: rgb(0, 159, 85);
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+/*--------------------------------------------------------*/
+
+#sun{
+	width: 33%;
+	height: 100%;
+	margin-left: 1%;
+	float: left;
+
+}
+
+.rise{
+	width: 50%;
+	height: 100%;
+	float:left;
+}
+
+.rise-value{
+	width: 100%;
+	height: 80%;
+	float: left;
+	background: rgb(0, 159, 85);
+	background-image: url(../images/sun-rise.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 70px;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+
+}
+
+.rise-value:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+.rise-title{
+	width: 100%;
+	height: 19%;
+	float: left;
+	margin-top: 1%;
+	background: rgb(0, 159, 85);
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+/*-----------------------------------------------------*/
+
+.set{
+	width: 49%;
+	height: 100%;
+	float:left;
+	margin-left: 1%;
+}
+
+.set-value{
+	width: 100%;
+	height: 80%;
+	float: left;
+	background-image: url(../images/sun-set.png);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	text-align: center;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 70px;
+	opacity: 1;
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+
+.set-value:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05,1.07);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.07);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+    position: relative;
+    z-index: 99;
+}
+
+.set-title{
+	width: 100%;
+	height: 19%;
+	float: left;
+	margin-top: 1%;
+	background: rgb(0, 159, 85);
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+

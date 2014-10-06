@@ -1,0 +1,39 @@
+#popup-warning{
+	width:250px;
+	height: 170px;
+	border-radius: 5px;
+	float: left;
+	text-align: center;
+	display: none;
+
+
+	-webkit-box-shadow: 0 10px 7px -7px black;
+	   -moz-box-shadow: 0 10px 7px -7px black;
+	        box-shadow: 0 10px 7px -7px black;
+}
+
+
+#dialog-title{
+  width: 100%;
+  height: 30px;
+  float: left;
+  border-bottom:1px solid #3e50fd;
+  color: #e94d4d;
+}
+
+#dialog-text{
+  width: 100%;
+  height: 90px;
+  float: left;
+  line-height: 90px;
+  color: #467cf5;
+}
+
+#dialog-button{
+	width: 90%;
+	margin-left: 10%;
+}
+
+.btn-primary{
+	margin-left: 40px !important;
+}

@@ -1,0 +1,19 @@
+.label-des{
+	margin-top: 15px;
+}
+
+.row{
+	margin-left: 14% !important;
+}
+
+#no-label{
+	background-color: transparent !important;
+}
+
+#info-title{
+	text-align: center;
+}
+
+#district-box,#box-1,#box-2{
+	width: 180px;
+}
