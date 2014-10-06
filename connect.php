@@ -9,9 +9,7 @@ if (mysqli_connect_errno())
 
   if (!mysqli_set_charset($con, "utf8")) {
     printf("Error loading character set utf8: %s\n", mysqli_error($con));
-} //else {
-   // printf("Current character set: %s\n", mysqli_character_set_name($con));
-//}
+} 
 
 $item_per_page = 1;
 
